@@ -1,0 +1,34 @@
+@import 'variables';
+@import 'utilities';
+
+body {
+  background-image: url("http://dbwebworks.ie/sites/default/files/freecodecamp/images/sunset.jpg" );
+  background-repeat: no-repeat;
+  background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+h1#title {
+  text-align: center;
+  color: #FFF;
+  margin-top: 50px;
+  font-size: 3em;
+  font-weight: 800;
+}
+
+div.jumbotron {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.jumbotron blockquote {
+   font-size: 2.5em;
+}
